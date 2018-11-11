@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../MixShop/common-manager/common-manager.iml" filepath="$PROJECT_DIR$/../MixShop/common-manager/common-manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../MixShop/common-manager/common-manager-dao/common-manager-dao.iml" filepath="$PROJECT_DIR$/../MixShop/common-manager/common-manager-dao/common-manager-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../MixShop/common-manager/common-manager-interface/common-manager-interface.iml" filepath="$PROJECT_DIR$/../MixShop/common-manager/common-manager-interface/common-manager-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../MixShop/common-manager/common-manager-pojo/common-manager-pojo.iml" filepath="$PROJECT_DIR$/../MixShop/common-manager/common-manager-pojo/common-manager-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../MixShop/common-manager/common-manager-service/common-manager-service.iml" filepath="$PROJECT_DIR$/../MixShop/common-manager/common-manager-service/common-manager-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../MixShop/common-manager/common-manager-web/common-manager-web.iml" filepath="$PROJECT_DIR$/../MixShop/common-manager/common-manager-web/common-manager-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../MixShop/common-parent/common-parent.iml" filepath="$PROJECT_DIR$/../MixShop/common-parent/common-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../MixShop/common-utils/common-utils.iml" filepath="$PROJECT_DIR$/../MixShop/common-utils/common-utils.iml" />
+    </modules>
+  </component>
+</project>
