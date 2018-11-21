@@ -13,8 +13,8 @@
     </facet>
   </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
-    <output url="file://$MODULE_DIR$/../../MixShop/common-manager/target/classes" />
-    <output-test url="file://$MODULE_DIR$/../../MixShop/common-manager/target/test-classes" />
+    <output url="file://$MODULE_DIR$/target/classes" />
+    <output-test url="file://$MODULE_DIR$/target/test-classes" />
     <content url="file://$MODULE_DIR$/../../MixShop/common-manager">
       <sourceFolder url="file://$MODULE_DIR$/../../MixShop/common-manager/src/main/java" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/../../MixShop/common-manager/target" />

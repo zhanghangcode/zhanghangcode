@@ -10,8 +10,10 @@
     </session>
   </component>
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/../MixShop/common-content" />
     <file type="web" url="file://$PROJECT_DIR$/../MixShop/common-manager" />
     <file type="web" url="file://$PROJECT_DIR$/../MixShop/common-manager-web" />
+    <file type="web" url="file://$PROJECT_DIR$/../MixShop/common-portal-web" />
     <file type="web" url="file://$PROJECT_DIR$/../MixShop/common-utils" />
   </component>
   <component name="MavenProjectsManager">
@@ -20,7 +22,9 @@
         <option value="$PROJECT_DIR$/common-parent/pom.xml" />
         <option value="$PROJECT_DIR$/common-utils/pom.xml" />
         <option value="$PROJECT_DIR$/common-manager/pom.xml" />
-        <option value="$PROJECT_DIR$/../MixShop/common-manager-web/pom.xml" />
+        <option value="$PROJECT_DIR$/common-manager-web/pom.xml" />
+        <option value="$PROJECT_DIR$/../MixShop/common-portal-web/pom.xml" />
+        <option value="$PROJECT_DIR$/../MixShop/common-content/pom.xml" />
       </list>
     </option>
   </component>

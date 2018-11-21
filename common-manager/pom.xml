@@ -21,7 +21,6 @@
         <module>common-manager-dao</module>
         <module>common-manager-interface</module>
         <module>common-manager-service</module>
-
     </modules>
     <!--依赖管理-->
     <dependencies>
