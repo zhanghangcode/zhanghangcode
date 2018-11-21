@@ -1,12 +1,14 @@
 package com.min.controller;
 
 import com.min.common.pojo.EasyUIDataGridResult;
+import com.min.common.utils.CommonResult;
 import com.min.pojo.TbItem;
 import com.min.service.ItemService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
@@ -27,5 +29,12 @@ public class ItemController {
     private EasyUIDataGridResult getItemList(Integer page,Integer rows){
         EasyUIDataGridResult itemList = itemService.getItemList(page, rows);
         return itemList;
+    }
+
+    @RequestMapping(value="/item/save",method = RequestMethod.POST)
+    @ResponseBody
+    private CommonResult saveItem(TbItem item,String desc){
+        CommonResult commonResult = itemService.addItem(item, desc);
+        return commonResult;
     }
 }
