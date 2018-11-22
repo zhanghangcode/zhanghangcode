@@ -43,4 +43,5 @@
     <dubbo:reference interface="com.min.service.ItemService" id="itemService" />
     <dubbo:reference interface="com.min.service.ItemCatService" id="itemCatServiceImpl" />
     <dubbo:reference interface="com.min.content.service.ContentCategoryService" id="contentCategoryService" />
+    <dubbo:reference interface="com.min.content.service.ContentService" id="contentService" />
 </beans>
