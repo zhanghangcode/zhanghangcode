@@ -1,124 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="94bd824a-ff03-43bc-9695-772168a2ee31" name="Default" comment="完成商品编辑">
-      <change afterPath="$PROJECT_DIR$/../MixShop/.idea/artifacts/common_content_service_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/.idea/artifacts/common_content_service_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/.idea/artifacts/common_content_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/.idea/artifacts/common_content_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/.idea/artifacts/common_portal_web_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/.idea/artifacts/common_portal_web_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-content/common-content-interface/common-content-interface.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-content/common-content-interface/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-content/common-content-service/common-content-service.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-content/common-content-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-content/common-content-service/src/main/resources/conf/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-content/common-content-service/src/main/resources/conf/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-content/common-content-service/src/main/resources/mybatis/SqlMapConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-content/common-content-service/src/main/resources/spring/applicationContext-dao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-content/common-content-service/src/main/resources/spring/applicationContext-service.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-content/common-content-service/src/main/resources/spring/applicationContext-trans.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-content/common-content-service/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-content/common-content-service/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-content/common-content.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-content/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-content/src/main/java/com/min/MyPortlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-content/src/main/jetspeed/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-content/src/main/webapp/WEB-INF/portlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-content/src/main/webapp/WEB-INF/tld/portlet.tld" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-content/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-content/src/main/webapp/help.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-content/src/main/webapp/maximized.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-content/src/main/webapp/normal.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-portal-web/common-portal-web.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-portal-web/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-portal-web/src/main/java/com/min/portal/controller/IndexController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-portal-web/src/main/resources/conf/resource.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-portal-web/src/main/resources/spring/springmvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-portal-web/src/main/webapp/WEB-INF/jsp/commons/footer.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-portal-web/src/main/webapp/WEB-INF/jsp/commons/header.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-portal-web/src/main/webapp/WEB-INF/jsp/commons/mainmenu.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-portal-web/src/main/webapp/WEB-INF/jsp/commons/shortcut.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-portal-web/src/main/webapp/WEB-INF/jsp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-portal-web/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-portal-web/src/main/webapp/css/base_w1200.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-portal-web/src/main/webapp/css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-portal-web/src/main/webapp/images/bottom_sm.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-portal-web/src/main/webapp/images/cate_bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-portal-web/src/main/webapp/images/foot/cd.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-portal-web/src/main/webapp/images/foot/logo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-portal-web/src/main/webapp/images/foot/qc.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-portal-web/src/main/webapp/images/foot/qq.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-portal-web/src/main/webapp/images/foot/sf.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-portal-web/src/main/webapp/images/foot_bottom.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-portal-web/src/main/webapp/images/g_loading.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-portal-web/src/main/webapp/images/goods/160x160-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-portal-web/src/main/webapp/images/goods/160x160-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-portal-web/src/main/webapp/images/goods/160x160-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-portal-web/src/main/webapp/images/goods/160x160-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-portal-web/src/main/webapp/images/goods/160x160-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-portal-web/src/main/webapp/images/goods/160x160-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-portal-web/src/main/webapp/images/goods/160x160-7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-portal-web/src/main/webapp/images/goods/160x160-8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-portal-web/src/main/webapp/images/goods/26336113289bf7273823080488a9d200.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-portal-web/src/main/webapp/images/goods/751d2091c008c2a49c1934545730f041.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-portal-web/src/main/webapp/images/goods/7cc96c14e10f6ed8db28b4b1efdfdb07.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-portal-web/src/main/webapp/images/goods/8f42d6d2deead3da7d50c8a702a3c939.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-portal-web/src/main/webapp/images/goods/c11e0d59289782b09ea1cbcb98070017.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-portal-web/src/main/webapp/images/header.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-portal-web/src/main/webapp/images/html/042cc65a4fb9899878f2f37235ca1793.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-portal-web/src/main/webapp/images/html/1463455028.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-portal-web/src/main/webapp/images/html/1463456854.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-portal-web/src/main/webapp/images/html/1468837571.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-portal-web/src/main/webapp/images/html/1471311388.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-portal-web/src/main/webapp/images/html/1471311447.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-portal-web/src/main/webapp/images/html/1472521203.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-portal-web/src/main/webapp/images/html/1472521236.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-portal-web/src/main/webapp/images/html/1472521250.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-portal-web/src/main/webapp/images/html/1748dcf682d7f595012e4309695d71d9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-portal-web/src/main/webapp/images/html/20160829181637762.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-portal-web/src/main/webapp/images/html/26336113289bf7273823080488a9d200.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-portal-web/src/main/webapp/images/html/2a3ba6ffb33d8fca0dc848f94e3d99d8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-portal-web/src/main/webapp/images/html/49111b8189bf71370cdb145f8fdb1195.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-portal-web/src/main/webapp/images/html/4dd7317569a06a451c1fe7762d6bf928.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-portal-web/src/main/webapp/images/html/516e4d058d1d65a3506e179642297b2d.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-portal-web/src/main/webapp/images/html/51e357022c1f826f13211222831a4b13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-portal-web/src/main/webapp/images/html/600c425e04b41f49e451d2fdbafb6e45.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-portal-web/src/main/webapp/images/html/751d2091c008c2a49c1934545730f041.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-portal-web/src/main/webapp/images/html/757e35fab995b43c23b4396dc3ba4269.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-portal-web/src/main/webapp/images/html/7a80fda907bf5107f6967add2a304a51.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-portal-web/src/main/webapp/images/html/7cc96c14e10f6ed8db28b4b1efdfdb07.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-portal-web/src/main/webapp/images/html/838abc2055e36f423701de255bbc9914.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-portal-web/src/main/webapp/images/html/8f42d6d2deead3da7d50c8a702a3c939.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-portal-web/src/main/webapp/images/html/95256f5b2857ec28914f631532508d76.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-portal-web/src/main/webapp/images/html/aa472cb9f9624d22d1fcfd1c4dffbe42.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-portal-web/src/main/webapp/images/html/c11e0d59289782b09ea1cbcb98070017.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-portal-web/src/main/webapp/images/html/c3449a684bebe21f5b6c6c79e46791ff.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-portal-web/src/main/webapp/images/html/cf33d7d36f1128577782ded21fe812a9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-portal-web/src/main/webapp/images/html/ddf3f66b114f3a3bfbbe0b47693cdbf0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-portal-web/src/main/webapp/images/html/de66a063548629c8d4e639523d8c9c6e.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-portal-web/src/main/webapp/images/html/e886f76e03f7a3596033eb34ca362339.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-portal-web/src/main/webapp/images/html/logo_word.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-portal-web/src/main/webapp/images/indexImg20130307.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-portal-web/src/main/webapp/images/index_icon_new.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-portal-web/src/main/webapp/images/indexsprite.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-portal-web/src/main/webapp/images/kxicon.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-portal-web/src/main/webapp/images/left_lm_m.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-portal-web/src/main/webapp/images/left_lm_m_a.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-portal-web/src/main/webapp/images/logo66.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-portal-web/src/main/webapp/js/e3mall.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-portal-web/src/main/webapp/js/global_index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-portal-web/src/main/webapp/js/jquery-1.4.2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-portal-web/src/main/webapp/js/jquery.cookie.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MixShop/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MixShop/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MixShop/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MixShop/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MixShop/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MixShop/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MixShop/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MixShop/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="94bd824a-ff03-43bc-9695-772168a2ee31" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/../MixShop/common-content/common-content-interface/src/main/java/com/min/content/service/ContentCategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MixShop/common-content/common-content-service/src/main/java/com/min/content/service/impl/ContentCategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MixShop/common-content/common-content-service/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MixShop/common-content/common-content-service/src/test/java/com/min/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MixShop/common-manager-web/src/main/java/com/min/controller/ContentCategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MixShop/common-manager-web/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MixShop/.idea/artifacts/common_manager_web_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MixShop/.idea/artifacts/common_manager_web_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MixShop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MixShop/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MixShop/common-manager-web/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MixShop/common-manager-web/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MixShop/common-manager/common-manager.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../MixShop/common-manager/common-manager.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MixShop/common-manager/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MixShop/common-manager/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MixShop/common-parent/src/test/java/com/min/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MixShop/common-content/common-content-interface/common-content-interface.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../MixShop/common-content/common-content-interface/common-content-interface.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MixShop/common-content/common-content-service/common-content-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../MixShop/common-content/common-content-service/common-content-service.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MixShop/common-content/common-content-service/src/main/resources/conf/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MixShop/common-content/common-content-service/src/main/resources/spring/applicationContext-service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MixShop/common-content/common-content-service/src/main/resources/spring/applicationContext-service.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MixShop/common-content/common-content.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../MixShop/common-content/common-content.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MixShop/common-content/src/main/java/com/min/MyPortlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MixShop/common-manager-web/common-manager-web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../MixShop/common-manager-web/common-manager-web.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MixShop/common-manager-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MixShop/common-manager-web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MixShop/common-manager-web/src/main/resources/spring/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MixShop/common-manager-web/src/main/resources/spring/springmvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MixShop/common-manager/common-manager-dao/src/main/java/com/min/mapper/TbContentCategoryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MixShop/common-manager/common-manager-dao/src/main/java/com/min/mapper/TbContentCategoryMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MixShop/common-manager/common-manager-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MixShop/common-manager/common-manager-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MixShop/common-manager/common-manager-service/src/main/resources/conf/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MixShop/common-manager/common-manager-service/src/main/resources/spring/applicationContext-service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MixShop/common-manager/common-manager-service/src/main/resources/spring/applicationContext-service.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MixShop/common-portal-web/common-portal-web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../MixShop/common-portal-web/common-portal-web.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/common-parent/target/" />
     <ignored path="$PROJECT_DIR$/common-utils/target/" />
@@ -129,10 +34,10 @@
     <ignored path="$PROJECT_DIR$/common-manager/common-manager-service/target/" />
     <ignored path="$PROJECT_DIR$/common-manager/common-manager-web/target/" />
     <ignored path="$PROJECT_DIR$/common-manager-web/target/" />
-    <ignored path="$PROJECT_DIR$/../MixShop/common-portal-web/target/" />
-    <ignored path="$PROJECT_DIR$/../MixShop/common-content/target/" />
-    <ignored path="$PROJECT_DIR$/../MixShop/common-content/common-content-service/target/" />
-    <ignored path="$PROJECT_DIR$/../MixShop/common-content/common-content-interface/target/" />
+    <ignored path="$PROJECT_DIR$/common-portal-web/target/" />
+    <ignored path="$PROJECT_DIR$/common-content/target/" />
+    <ignored path="$PROJECT_DIR$/common-content/common-content-service/target/" />
+    <ignored path="$PROJECT_DIR$/common-content/common-content-interface/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -145,36 +50,40 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="applicationContext-dao.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../MixShop/common-content/common-content-service/src/main/resources/spring/applicationContext-dao.xml">
+      <file leaf-file-name="ContentCategoryService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../MixShop/common-content/common-content-interface/src/main/java/com/min/content/service/ContentCategoryService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="651">
-              <caret line="41" column="53" lean-forward="true" selection-start-line="41" selection-start-column="53" selection-end-line="41" selection-end-column="53" />
+            <state relative-caret-position="360">
+              <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="applicationContext-service.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../MixShop/common-content/common-content-service/src/main/resources/spring/applicationContext-service.xml">
+      <file leaf-file-name="ContentCategoryServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../MixShop/common-content/common-content-service/src/main/java/com/min/content/service/impl/ContentCategoryServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="27" column="110" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="27" selection-end-column="110" />
+            <state relative-caret-position="236">
+              <caret line="70" column="34" lean-forward="true" selection-start-line="70" selection-start-column="34" selection-end-line="70" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="applicationContext-trans.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../MixShop/common-content/common-content-service/src/main/resources/spring/applicationContext-trans.xml">
+      <file leaf-file-name="ContentCategoryController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../MixShop/common-manager-web/src/main/java/com/min/controller/ContentCategoryController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="816">
-              <caret line="34" column="16" lean-forward="true" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+            <state relative-caret-position="212">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../MixShop/common-content/common-content-service/src/main/webapp/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -190,6 +99,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>junit</find>
+      <find>log</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -198,16 +108,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/common-manager/common-manager-pojo/src/main/java/com/min/pojo/TbItemParam.java" />
-        <option value="$PROJECT_DIR$/common-manager/common-manager-pojo/src/main/java/com/min/pojo/TbItemParamItem.java" />
-        <option value="$PROJECT_DIR$/common-manager/common-manager-pojo/src/main/java/com/min/pojo/TbOrder.java" />
-        <option value="$PROJECT_DIR$/common-manager/common-manager-pojo/src/main/java/com/min/pojo/TbOrderItem.java" />
-        <option value="$PROJECT_DIR$/common-manager/common-manager-pojo/src/main/java/com/min/pojo/TbOrderShipping.java" />
-        <option value="$PROJECT_DIR$/common-manager/common-manager-pojo/src/main/java/com/min/pojo/TbUser.java" />
-        <option value="$PROJECT_DIR$/common-manager/common-manager-service/src/main/resources/spring/applicationContext-service.xml" />
-        <option value="$PROJECT_DIR$/common-manager-web/src/main/resources/spring/springmvc.xml" />
-        <option value="$PROJECT_DIR$/common-manager-web/src/main/java/com/min/controller/PageController.java" />
-        <option value="$PROJECT_DIR$/common-manager/common-manager-service/src/main/resources/mybatis/SqlMapConfig.xml" />
         <option value="$PROJECT_DIR$/common-manager/common-manager-service/src/test/java/com/min/pagehelper/PageHelperTest.java" />
         <option value="$PROJECT_DIR$/common-parent/src/main/java/com/min/common/pojo/EasyUIDataGridResult.java" />
         <option value="$PROJECT_DIR$/common-manager/common-manager-interface/src/main/java/com/min/service/ItemService.java" />
@@ -231,24 +131,34 @@
         <option value="$PROJECT_DIR$/common-manager-web/src/main/resources/spring/springmvc.xml" />
         <option value="$PROJECT_DIR$/common-utils/src/main/java/com/min/common/utils/JsonUtils.java" />
         <option value="$PROJECT_DIR$/common-manager-web/src/main/java/com/min/controller/PictureController.java" />
-        <option value="$PROJECT_DIR$/../MixShop/common-utils/src/main/java/com/min/common/utils/TaotaoResult.java" />
-        <option value="$PROJECT_DIR$/../MixShop/common-manager/common-manager-interface/src/main/java/com/min/service/ItemService.java" />
-        <option value="$PROJECT_DIR$/../MixShop/common-utils/src/main/java/com/min/common/utils/IDUtils.java" />
-        <option value="$PROJECT_DIR$/../MixShop/common-manager/common-manager-service/src/main/java/com/min/service/impl/ItemServiceimpl.java" />
-        <option value="$PROJECT_DIR$/../MixShop/common-utils/src/main/java/com/min/common/utils/CommonResult.java" />
-        <option value="$PROJECT_DIR$/../MixShop/common-manager-web/src/main/java/com/min/controller/ItemController.java" />
-        <option value="$PROJECT_DIR$/../MixShop/common-utils/src/main/java/com/min/common/utils/JsonUtils.java" />
-        <option value="$PROJECT_DIR$/../MixShop/common-portal-web/pom.xml" />
-        <option value="$PROJECT_DIR$/../MixShop/common-portal-web/src/main/java/resources/spring/springmvc.xml" />
-        <option value="$PROJECT_DIR$/../MixShop/common-manager-web/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/../MixShop/common-portal-web/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/../MixShop/common-portal-web/src/main/java/com/min/portal/controller/IndexController.java" />
-        <option value="$PROJECT_DIR$/../MixShop/common-manager/pom.xml" />
-        <option value="$PROJECT_DIR$/../MixShop/common-content/common-content-interface/pom.xml" />
-        <option value="$PROJECT_DIR$/../MixShop/common-content/pom.xml" />
-        <option value="$PROJECT_DIR$/../MixShop/common-content/common-content-service/pom.xml" />
+        <option value="$PROJECT_DIR$/common-utils/src/main/java/com/min/common/utils/TaotaoResult.java" />
+        <option value="$PROJECT_DIR$/common-manager/common-manager-interface/src/main/java/com/min/service/ItemService.java" />
+        <option value="$PROJECT_DIR$/common-utils/src/main/java/com/min/common/utils/IDUtils.java" />
+        <option value="$PROJECT_DIR$/common-manager/common-manager-service/src/main/java/com/min/service/impl/ItemServiceimpl.java" />
+        <option value="$PROJECT_DIR$/common-utils/src/main/java/com/min/common/utils/CommonResult.java" />
+        <option value="$PROJECT_DIR$/common-manager-web/src/main/java/com/min/controller/ItemController.java" />
+        <option value="$PROJECT_DIR$/common-utils/src/main/java/com/min/common/utils/JsonUtils.java" />
+        <option value="$PROJECT_DIR$/common-portal-web/pom.xml" />
+        <option value="$PROJECT_DIR$/common-portal-web/src/main/java/resources/spring/springmvc.xml" />
+        <option value="$PROJECT_DIR$/common-manager-web/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/common-portal-web/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/common-portal-web/src/main/java/com/min/portal/controller/IndexController.java" />
+        <option value="$PROJECT_DIR$/common-manager/pom.xml" />
+        <option value="$PROJECT_DIR$/common-content/common-content-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/common-content/pom.xml" />
+        <option value="$PROJECT_DIR$/common-content/common-content-service/pom.xml" />
+        <option value="$PROJECT_DIR$/common-content/common-content-service/src/main/resources/spring/applicationContext-service.xml" />
+        <option value="$PROJECT_DIR$/common-content/common-content-service/src/main/resources/spring/applicationContext-trans.xml" />
+        <option value="$PROJECT_DIR$/../MixShop/common-manager-web/pom.xml" />
+        <option value="$PROJECT_DIR$/../MixShop/common-manager-web/src/main/java/com/min/controller/ItemCatController.java" />
+        <option value="$PROJECT_DIR$/../MixShop/common-manager/common-manager-service/pom.xml" />
+        <option value="$PROJECT_DIR$/../MixShop/common-manager/common-manager-service/src/main/resources/spring/applicationContext-service.xml" />
+        <option value="$PROJECT_DIR$/../MixShop/common-manager-web/src/main/resources/spring/springmvc.xml" />
         <option value="$PROJECT_DIR$/../MixShop/common-content/common-content-service/src/main/resources/spring/applicationContext-service.xml" />
-        <option value="$PROJECT_DIR$/../MixShop/common-content/common-content-service/src/main/resources/spring/applicationContext-trans.xml" />
+        <option value="$PROJECT_DIR$/../MixShop/common-manager/common-manager-dao/src/main/java/com/min/mapper/TbContentCategoryMapper.xml" />
+        <option value="$PROJECT_DIR$/../MixShop/common-content/common-content-interface/src/main/java/com/min/content/service/ContentCategoryService.java" />
+        <option value="$PROJECT_DIR$/../MixShop/common-content/common-content-service/src/main/java/com/min/content/service/impl/ContentCategoryServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../MixShop/common-manager-web/src/main/java/com/min/controller/ContentCategoryController.java" />
       </list>
     </option>
   </component>
@@ -273,7 +183,17 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="common-content-interface" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="common-content-interface" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
@@ -297,177 +217,52 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="MixShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="common-content" type="462c0819:PsiDirectoryNode" />
+              <item name="common-manager-web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MixShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="common-content" type="462c0819:PsiDirectoryNode" />
-              <item name="common-content-interface" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MixShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="common-content" type="462c0819:PsiDirectoryNode" />
-              <item name="common-content-interface" type="462c0819:PsiDirectoryNode" />
+              <item name="common-manager-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MixShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="common-content" type="462c0819:PsiDirectoryNode" />
-              <item name="common-content-interface" type="462c0819:PsiDirectoryNode" />
+              <item name="common-manager-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MixShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="common-content" type="462c0819:PsiDirectoryNode" />
-              <item name="common-content-interface" type="462c0819:PsiDirectoryNode" />
+              <item name="common-manager-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MixShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="common-content" type="462c0819:PsiDirectoryNode" />
-              <item name="common-content-service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MixShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="common-content" type="462c0819:PsiDirectoryNode" />
-              <item name="common-content-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MixShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="common-content" type="462c0819:PsiDirectoryNode" />
-              <item name="common-content-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MixShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="common-content" type="462c0819:PsiDirectoryNode" />
-              <item name="common-content-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MixShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="common-content" type="462c0819:PsiDirectoryNode" />
-              <item name="common-content-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MixShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="common-content" type="462c0819:PsiDirectoryNode" />
-              <item name="common-content-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MixShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="common-content" type="462c0819:PsiDirectoryNode" />
-              <item name="common-content-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MixShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="common-manager" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MixShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="common-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="common-manager-dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MixShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="common-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="common-manager-dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MixShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="common-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="common-manager-dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MixShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="common-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="common-manager-dao" type="462c0819:PsiDirectoryNode" />
+              <item name="common-manager-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MixShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="common-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="common-manager-service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MixShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="common-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="common-manager-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MixShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="common-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="common-manager-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MixShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="common-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="common-manager-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MixShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="common-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="common-manager-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MixShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="common-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="common-manager-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MixShop/common-portal-web" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MixShop/common-content" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -476,18 +271,22 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\MixShop\common-portal-web\src\main\" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\MixShop\common-manager\common-manager-service\src\main\resources" />
+      <recent name="E:\MixShop\common-manager-web\src" />
+      <recent name="E:\MixShop\common-manager\src" />
       <recent name="E:\MixShop\common-content\common-content-service\src\main" />
       <recent name="E:\MixShop\common-portal-web\src\main\java" />
-      <recent name="E:\MixShop\common-portal-web\src\main\webapp" />
-      <recent name="E:\MixShop\common-portal-web\src\main\webapp\WEB-INF" />
-      <recent name="E:\MixShop\common-utils\src\main\java\com\min\common\utils" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\MixShop\common-content\common-content-service\src\main\resources" />
+      <recent name="E:\MixShop\common-manager-web\src\main\resources" />
+      <recent name="E:\MixShop\common-manager\common-manager-service\src" />
+      <recent name="E:\MixShop\common-manager\common-manager-service\src\main\resources\conf" />
+      <recent name="E:\MixShop\common-manager" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -502,7 +301,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Maven.common-portal">
+  <component name="RunManager" selected="Maven.common-web">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -567,6 +366,31 @@
         <value defaultName="singleModule" />
       </option>
       <patterns />
+    </configuration>
+    <configuration name="common-content" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/../MixShop/common-content" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
     </configuration>
     <configuration name="common-managere" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
@@ -669,6 +493,7 @@
       <item itemvalue="Maven.common-managere" />
       <item itemvalue="Maven.common-web" />
       <item itemvalue="Maven.common-portal" />
+      <item itemvalue="Maven.common-content" />
       <item itemvalue="JUnit.PageHelperTest.TestPageHepler" />
       <item itemvalue="JUnit.FastFDSTest.testFileLoad" />
     </list>
@@ -698,7 +523,8 @@
       <workItem from="1542544244630" duration="368000" />
       <workItem from="1542620861746" duration="6046000" />
       <workItem from="1542681231981" duration="7611000" />
-      <workItem from="1542762627616" duration="9919000" />
+      <workItem from="1542762627616" duration="10764000" />
+      <workItem from="1542849781690" duration="9097000" />
     </task>
     <task id="LOCAL-00001" summary="使用dubbo将服务层和web层分开">
       <created>1542621494656</created>
@@ -728,7 +554,14 @@
       <option name="project" value="LOCAL" />
       <updated>1542797100076</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="创建内容分类服务项目">
+      <created>1542802721393</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1542802721393</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -743,7 +576,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63468000" />
+    <option name="totallyTimeSpent" value="73410000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -756,6 +589,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32922733" />
@@ -775,12 +609,11 @@
       <window_info anchor="bottom" id="Java Enterprise" order="7" weight="0.32922733" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32922733" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33034715" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33034715" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32922733" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2739872" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2771855" />
       <window_info id="Web" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32922733" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -788,6 +621,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32922733" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -803,7 +637,8 @@
     <MESSAGE value="使用dubbo将服务层和web层分开" />
     <MESSAGE value="显示商品分类编辑列表" />
     <MESSAGE value="完成商品编辑" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成商品编辑" />
+    <MESSAGE value="创建内容分类服务项目" />
+    <option name="LAST_COMMIT_MESSAGE" value="创建内容分类服务项目" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -815,9 +650,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="675">
           <caret line="49" selection-start-line="49" selection-end-line="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -856,29 +688,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../MixShop/common-parent/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="661">
-          <caret line="189" column="19" selection-start-line="184" selection-start-column="5" selection-end-line="189" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MixShop/common-manager/common-manager-service/src/main/resources/spring/applicationContext-service.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="22" column="43" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../MixShop/common-manager-web/src/main/resources/conf/resource.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="39" selection-start-column="39" selection-end-column="39" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MixShop/common-utils/src/main/java/com/min/common/utils/CommonResult.java">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/../MixShop/common-manager-web/src/main/java/com/min/controller/PictureController.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -915,16 +730,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../MixShop/common-manager-web/src/main/java/com/min/controller/ItemController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../MixShop/common-manager/common-manager-pojo/src/main/java/com/min/pojo/TbItemCat.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
@@ -957,9 +762,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -970,36 +772,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../MixShop/common-parent/src/test/java/com/min/AppTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MixShop/common-portal-web/src/main/webapp/WEB-INF/jsp/commons/footer.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MixShop/common-portal-web/src/main/webapp/css/index.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MixShop/common-portal-web/src/main/java/resources/conf/client.conf">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MixShop/common-manager-web/src/main/resources/spring/springmvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1008">
-          <caret line="42" column="76" selection-start-line="42" selection-start-column="65" selection-end-line="42" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MixShop/common-portal-web/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../MixShop/common-parent/src/test/java/com/min/AppTest.java" />
+    <entry file="file://$PROJECT_DIR$/../MixShop/common-portal-web/src/main/webapp/index.jsp" />
     <entry file="file://$PROJECT_DIR$/../MixShop/common-portal-web/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1800">
@@ -1033,9 +807,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../MixShop/common-portal-web/src/main/resources/conf/resource.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/../MixShop/common-portal-web/src/main/resources/spring/springmvc.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="366">
@@ -1043,31 +814,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../MixShop/common-manager-web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2304">
-          <caret line="96" selection-start-line="96" selection-end-line="96" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../MixShop/common-manager/common-manager-dao/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="11" column="34" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MixShop/common-manager/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="46" column="12" selection-start-line="34" selection-start-column="4" selection-end-line="46" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MixShop/common-manager/common-manager-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="80" />
         </state>
       </provider>
     </entry>
@@ -1092,49 +842,163 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../MixShop/common-content/common-content-service/src/main/resources/conf/jdbc.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MixShop/common-content/common-content-service/src/main/resources/conf/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MixShop/common-content/common-content-service/src/main/resources/mybatis/SqlMapConfig.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MixShop/common-content/common-content-service/src/main/java/com/min/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MixShop/common-content/common-content-service/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MixShop/common-manager/common-manager-service/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MixShop/common-content/common-content-service/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../MixShop/common-content/common-content-service/src/main/java/com/min/App.java" />
     <entry file="file://$PROJECT_DIR$/../MixShop/common-content/common-content-service/src/main/resources/spring/applicationContext-dao.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="41" column="53" lean-forward="true" selection-start-line="41" selection-start-column="53" selection-end-line="41" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MixShop/common-content/common-content-service/src/main/resources/spring/applicationContext-service.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="27" column="110" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="27" selection-end-column="110" />
+        <state relative-caret-position="984">
+          <caret line="41" column="53" selection-start-line="41" selection-start-column="53" selection-end-line="41" selection-end-column="53" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../MixShop/common-content/common-content-service/src/main/resources/spring/applicationContext-trans.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="34" column="16" lean-forward="true" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+        <state relative-caret-position="288">
+          <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MixShop/common-manager-web/src/main/java/com/min/controller/ItemController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="602">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MixShop/common-manager-web/src/main/java/com/min/controller/ItemCatController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MixShop/common-manager/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MixShop/common-manager/common-manager-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="79" column="21" selection-start-line="79" selection-start-column="21" selection-end-line="79" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MixShop/common-parent/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2276">
+          <caret line="89" column="27" selection-start-line="89" selection-start-column="27" selection-end-line="89" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MixShop/common-content/common-content-interface/src/test/java/com/min/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+          <folding>
+            <element signature="e#241#242#0" expanded="true" />
+            <element signature="e#275#276#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MixShop/common-manager-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MixShop/common-content/src/main/java/com/min/MyPortlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-34">
+          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MixShop/common-manager/src/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MixShop/common-manager/common-manager-service/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_131/jre/lib/rt.jar!/sun/nio/ch/SocketChannelImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="956" selection-start-line="956" selection-end-line="956" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MixShop/common-manager-web/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MixShop/common-manager/common-manager-service/src/main/resources/spring/applicationContext-service.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="22" column="43" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MixShop/common-manager-web/src/main/resources/spring/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MixShop/common-content/common-content-service/src/main/resources/spring/applicationContext-service.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="48" lean-forward="true" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MixShop/common-manager/common-manager-dao/src/main/java/com/min/mapper/TbContentCategoryMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="118" column="16" selection-start-line="118" selection-start-column="16" selection-end-line="118" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MixShop/common-content/common-content-interface/src/main/java/com/min/content/service/ContentCategoryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MixShop/common-content/common-content-service/src/main/java/com/min/content/service/impl/ContentCategoryServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="70" column="34" lean-forward="true" selection-start-line="70" selection-start-column="34" selection-end-line="70" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MixShop/common-manager-web/src/main/java/com/min/controller/ContentCategoryController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1193,7 +1057,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>common-content-service</last-edited>
+          <last-edited>common-content</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
