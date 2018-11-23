@@ -1,6 +1,9 @@
 package com.min.jedis;
 
+import com.min.common.jedis.JedisClient;
 import org.junit.Test;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 import redis.clients.jedis.Jedis;
 
 /**
@@ -23,5 +26,14 @@ public class JedisTest {
         System.out.print(test321);
         //关闭连接
         jedis.close();
+    }
+    @Test
+    public void jedisTest(){
+        ApplicationContext applicationContext=new ClassPathXmlApplicationContext("classpath:spring/applicationContext-redis.xml");
+        JedisClient bean = applicationContext.getBean(JedisClient.class);
+        bean.set("mytest","msysss");
+        String test321 = bean.get("mytest");
+        System.out.print(test321);
+
     }
 }

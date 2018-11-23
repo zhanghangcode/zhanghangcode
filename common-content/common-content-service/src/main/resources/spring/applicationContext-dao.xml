@@ -16,7 +16,7 @@
 
 
     <!-- 配置 读取properties文件 jdbc.properties -->
-    <context:property-placeholder location="classpath:conf/jdbc.properties" />
+    <context:property-placeholder location="classpath:conf/*.properties" />
 
 
 
