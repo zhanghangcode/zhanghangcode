@@ -14,6 +14,8 @@
         <module name="common-manager-service" />
         <module name="common-manager-web" />
         <module name="common-portal-web" />
+        <module name="common-search-interface" />
+        <module name="common-search-service" />
         <module name="common-utils" />
       </profile>
     </annotationProcessing>
@@ -29,6 +31,9 @@
       <module name="common-manager-web" target="1.8" />
       <module name="common-parent" target="1.8" />
       <module name="common-portal-web" target="1.8" />
+      <module name="common-search" target="1.8" />
+      <module name="common-search-interface" target="1.8" />
+      <module name="common-search-service" target="1.8" />
       <module name="common-utils" target="1.8" />
     </bytecodeTargetLevel>
   </component>

@@ -33,6 +33,9 @@
           <element id="archive" name="common-content-interface-1.0-SNAPSHOT.jar">
             <element id="module-output" name="common-content-interface" />
           </element>
+          <element id="archive" name="common-search-interface-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="common-search-interface" />
+          </element>
           <element id="library" level="project" name="Maven: jstl:jstl:1.2" />
           <element id="library" level="project" name="Maven: org.springframework:spring-context:4.2.4.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-aop:4.2.4.RELEASE" />

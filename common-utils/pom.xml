@@ -57,8 +57,8 @@
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <scope>test</scope>
         </dependency>
+
         <!-- 日志处理 -->
         <dependency>
             <groupId>org.slf4j</groupId>

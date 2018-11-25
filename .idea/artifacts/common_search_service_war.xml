@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="common-search-service:war">
+    <output-path>$PROJECT_DIR$/../MixShop/common-search/common-search-service/target</output-path>
+    <root id="archive" name="common-search-service-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="common-search-service:war exploded" />
+    </root>
+  </artifact>
+</component>
