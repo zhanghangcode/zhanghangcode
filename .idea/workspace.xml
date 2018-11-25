@@ -1,49 +1,100 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="94bd824a-ff03-43bc-9695-772168a2ee31" name="Default" comment="增加数据缓存,通过配置文件替换选择redis集群缓存。">
-      <change afterPath="$PROJECT_DIR$/../MixShop/.idea/artifacts/common_search_service_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/.idea/artifacts/common_search_service_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/.idea/artifacts/common_search_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/.idea/artifacts/common_search_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/.idea/libraries/Maven__commons_io_commons_io_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/.idea/libraries/Maven__org_apache_solr_solr_solrj_4_10_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/.idea/libraries/Maven__org_codehaus_woodstox_wstx_asl_3_2_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/.idea/libraries/Maven__org_noggit_noggit_0_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-manager-web/src/main/java/com/min/controller/SearchItemController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-search/common-search-interface/common-search-interface.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-search/common-search-interface/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-search/common-search-interface/src/main/java/com/min/search/SearchItemService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-search/common-search-service/common-search-service.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-search/common-search-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-search/common-search-service/src/main/java/com/min/search/mapper/ItemMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-search/common-search-service/src/main/java/com/min/search/mapper/ItemMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-search/common-search-service/src/main/java/com/min/search/service/SearchItemServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-search/common-search-service/src/main/resources/conf/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-search/common-search-service/src/main/resources/conf/resource.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-search/common-search-service/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-search/common-search-service/src/main/resources/mybatis/SqlMapConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-search/common-search-service/src/main/resources/spring/applicationContext-dao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-search/common-search-service/src/main/resources/spring/applicationContext-service.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-search/common-search-service/src/main/resources/spring/applicationContext-solr.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-search/common-search-service/src/test/java/com/min/search/solr/SolrTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-search/common-search.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-search/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MixShop/common-utils/src/main/java/com/min/common/pojo/SearchItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MixShop/.idea/artifacts/common_manager_web_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MixShop/.idea/artifacts/common_manager_web_war_exploded.xml" afterDir="false" />
+    <list default="true" id="94bd824a-ff03-43bc-9695-772168a2ee31" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/../MixShop/.idea/artifacts/common_search_web_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MixShop/.idea/artifacts/common_search_web_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MixShop/common-search-web/common-search-web.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MixShop/common-search-web/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MixShop/common-search-web/src/main/java/com/min/search/controller/SearchController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MixShop/common-search-web/src/main/resources/conf/resource.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MixShop/common-search-web/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MixShop/common-search-web/src/main/resources/spring/springmvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MixShop/common-search-web/src/main/webapp/WEB-INF/jsp/commons/footer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MixShop/common-search-web/src/main/webapp/WEB-INF/jsp/commons/header.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MixShop/common-search-web/src/main/webapp/WEB-INF/jsp/commons/mainmenu.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MixShop/common-search-web/src/main/webapp/WEB-INF/jsp/commons/shortcut.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MixShop/common-search-web/src/main/webapp/WEB-INF/jsp/error/exception.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MixShop/common-search-web/src/main/webapp/WEB-INF/jsp/search.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MixShop/common-search-web/src/main/webapp/css/all.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MixShop/common-search-web/src/main/webapp/css/base_w1200.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MixShop/common-search-web/src/main/webapp/css/common.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MixShop/common-search-web/src/main/webapp/css/jquery.alerts.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MixShop/common-search-web/src/main/webapp/css/jquery.autocomplete.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MixShop/common-search-web/src/main/webapp/css/productList.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MixShop/common-search-web/src/main/webapp/images/bottom_sm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MixShop/common-search-web/src/main/webapp/images/cate_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MixShop/common-search-web/src/main/webapp/images/dq_icon2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MixShop/common-search-web/src/main/webapp/images/error_img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MixShop/common-search-web/src/main/webapp/images/foot/cd.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MixShop/common-search-web/src/main/webapp/images/foot/logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MixShop/common-search-web/src/main/webapp/images/foot/qc.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MixShop/common-search-web/src/main/webapp/images/foot/qq.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MixShop/common-search-web/src/main/webapp/images/foot/sf.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MixShop/common-search-web/src/main/webapp/images/foot_bottom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MixShop/common-search-web/src/main/webapp/images/g_loading.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MixShop/common-search-web/src/main/webapp/images/header.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MixShop/common-search-web/src/main/webapp/images/html/042cc65a4fb9899878f2f37235ca1793.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MixShop/common-search-web/src/main/webapp/images/html/1463455028.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MixShop/common-search-web/src/main/webapp/images/html/1463456854.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MixShop/common-search-web/src/main/webapp/images/html/1468837571.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MixShop/common-search-web/src/main/webapp/images/html/1471311388.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MixShop/common-search-web/src/main/webapp/images/html/1471311447.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MixShop/common-search-web/src/main/webapp/images/html/1472521203.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MixShop/common-search-web/src/main/webapp/images/html/1472521236.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MixShop/common-search-web/src/main/webapp/images/html/1472521250.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MixShop/common-search-web/src/main/webapp/images/html/1748dcf682d7f595012e4309695d71d9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MixShop/common-search-web/src/main/webapp/images/html/20160829181637762.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MixShop/common-search-web/src/main/webapp/images/html/26336113289bf7273823080488a9d200.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MixShop/common-search-web/src/main/webapp/images/html/2a3ba6ffb33d8fca0dc848f94e3d99d8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MixShop/common-search-web/src/main/webapp/images/html/49111b8189bf71370cdb145f8fdb1195.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MixShop/common-search-web/src/main/webapp/images/html/4dd7317569a06a451c1fe7762d6bf928.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MixShop/common-search-web/src/main/webapp/images/html/516e4d058d1d65a3506e179642297b2d.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MixShop/common-search-web/src/main/webapp/images/html/51e357022c1f826f13211222831a4b13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MixShop/common-search-web/src/main/webapp/images/html/600c425e04b41f49e451d2fdbafb6e45.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MixShop/common-search-web/src/main/webapp/images/html/751d2091c008c2a49c1934545730f041.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MixShop/common-search-web/src/main/webapp/images/html/757e35fab995b43c23b4396dc3ba4269.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MixShop/common-search-web/src/main/webapp/images/html/7a80fda907bf5107f6967add2a304a51.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MixShop/common-search-web/src/main/webapp/images/html/7cc96c14e10f6ed8db28b4b1efdfdb07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MixShop/common-search-web/src/main/webapp/images/html/838abc2055e36f423701de255bbc9914.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MixShop/common-search-web/src/main/webapp/images/html/8f42d6d2deead3da7d50c8a702a3c939.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MixShop/common-search-web/src/main/webapp/images/html/95256f5b2857ec28914f631532508d76.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MixShop/common-search-web/src/main/webapp/images/html/aa472cb9f9624d22d1fcfd1c4dffbe42.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MixShop/common-search-web/src/main/webapp/images/html/c11e0d59289782b09ea1cbcb98070017.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MixShop/common-search-web/src/main/webapp/images/html/c3449a684bebe21f5b6c6c79e46791ff.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MixShop/common-search-web/src/main/webapp/images/html/cf33d7d36f1128577782ded21fe812a9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MixShop/common-search-web/src/main/webapp/images/html/ddf3f66b114f3a3bfbbe0b47693cdbf0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MixShop/common-search-web/src/main/webapp/images/html/de66a063548629c8d4e639523d8c9c6e.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MixShop/common-search-web/src/main/webapp/images/html/e886f76e03f7a3596033eb34ca362339.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MixShop/common-search-web/src/main/webapp/images/html/logo_word.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MixShop/common-search-web/src/main/webapp/images/indexImg20130307.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MixShop/common-search-web/src/main/webapp/images/index_icon_new.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MixShop/common-search-web/src/main/webapp/images/indexsprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MixShop/common-search-web/src/main/webapp/images/kxicon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MixShop/common-search-web/src/main/webapp/images/left_lm_m_a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MixShop/common-search-web/src/main/webapp/images/logo66.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MixShop/common-search-web/src/main/webapp/images/productList.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MixShop/common-search-web/src/main/webapp/js/NewVersion.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MixShop/common-search-web/src/main/webapp/js/cart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MixShop/common-search-web/src/main/webapp/js/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MixShop/common-search-web/src/main/webapp/js/cookie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MixShop/common-search-web/src/main/webapp/js/e3mall.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MixShop/common-search-web/src/main/webapp/js/jquery-1.5.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MixShop/common-search-web/src/main/webapp/js/jquery.alerts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MixShop/common-search-web/src/main/webapp/js/jquery.cookie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MixShop/common-search-web/src/main/webapp/js/shadow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MixShop/common-search/common-search-interface/src/main/java/com/min/search/SearchService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MixShop/common-search/common-search-service/src/main/java/com/min/search/dao/SearchDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MixShop/common-search/common-search-service/src/main/java/com/min/search/service/SearchServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MixShop/common-utils/src/main/java/com/min/common/pojo/SearchResult.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MixShop/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MixShop/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MixShop/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MixShop/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MixShop/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MixShop/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MixShop/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MixShop/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MixShop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MixShop/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MixShop/common-content/common-content.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../MixShop/common-content/common-content.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MixShop/common-manager-web/common-manager-web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../MixShop/common-manager-web/common-manager-web.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MixShop/common-manager-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MixShop/common-manager-web/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MixShop/common-manager-web/src/main/resources/spring/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MixShop/common-manager-web/src/main/resources/spring/springmvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MixShop/common-manager-web/src/test/java/com.min.fast/FastFDSTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MixShop/common-manager-web/src/test/java/com.min.fast/FastFDSTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MixShop/common-utils/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MixShop/common-utils/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MixShop/common-search/common-search-service/src/main/resources/conf/resource.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../MixShop/common-search/common-search-service/src/main/resources/conf/resource.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MixShop/common-search/common-search-service/src/main/resources/spring/applicationContext-service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MixShop/common-search/common-search-service/src/main/resources/spring/applicationContext-service.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MixShop/common-utils/src/main/java/com/min/common/pojo/SearchItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MixShop/common-utils/src/main/java/com/min/common/pojo/SearchItem.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/common-parent/target/" />
     <ignored path="$PROJECT_DIR$/common-utils/target/" />
@@ -61,6 +112,7 @@
     <ignored path="$PROJECT_DIR$/../MixShop/common-search/target/" />
     <ignored path="$PROJECT_DIR$/../MixShop/common-search/common-search-interface/target/" />
     <ignored path="$PROJECT_DIR$/../MixShop/common-search/common-search-service/target/" />
+    <ignored path="$PROJECT_DIR$/../MixShop/common-search-web/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -73,11 +125,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SearchItemController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../MixShop/common-manager-web/src/main/java/com/min/controller/SearchItemController.java">
+      <file leaf-file-name="SearchController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../MixShop/common-search-web/src/main/java/com/min/search/controller/SearchController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+            <state relative-caret-position="483">
+              <caret line="34" column="38" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -85,63 +137,57 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SearchItemServiceImpl.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../MixShop/common-search/common-search-service/src/main/java/com/min/search/service/SearchItemServiceImpl.java">
+      <file leaf-file-name="search.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../MixShop/common-search-web/src/main/webapp/WEB-INF/jsp/search.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="45" column="19" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
+            <state relative-caret-position="79">
+              <caret line="49" column="32" lean-forward="true" selection-start-line="49" selection-start-column="32" selection-end-line="49" selection-end-column="32" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../MixShop/common-search/common-search-service/pom.xml">
+      <file leaf-file-name="SearchItem.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../MixShop/common-utils/src/main/java/com/min/common/pojo/SearchItem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ItemMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../MixShop/common-search/common-search-service/src/main/java/com/min/search/mapper/ItemMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ItemMapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../MixShop/common-search/common-search-service/src/main/java/com/min/search/mapper/ItemMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+            <state relative-caret-position="1488">
+              <caret line="62" column="5" lean-forward="true" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#430#431#0" expanded="true" />
+                <element signature="e#455#456#0" expanded="true" />
+                <element signature="e#491#492#0" expanded="true" />
+                <element signature="e#519#520#0" expanded="true" />
+                <element signature="e#551#552#0" expanded="true" />
+                <element signature="e#579#580#0" expanded="true" />
+                <element signature="e#621#622#0" expanded="true" />
+                <element signature="e#655#656#0" expanded="true" />
+                <element signature="e#692#693#0" expanded="true" />
+                <element signature="e#725#726#0" expanded="true" />
+                <element signature="e#777#778#0" expanded="true" />
+                <element signature="e#821#822#0" expanded="true" />
+                <element signature="e#851#852#0" expanded="true" />
+                <element signature="e#879#880#0" expanded="true" />
+                <element signature="e#919#920#0" expanded="true" />
+                <element signature="e#953#954#0" expanded="true" />
+                <element signature="e#985#986#0" expanded="true" />
+                <element signature="e#1013#1014#0" expanded="true" />
+                <element signature="e#1055#1056#0" expanded="true" />
+                <element signature="e#1089#1090#0" expanded="true" />
+                <element signature="e#1129#1130#0" expanded="true" />
+                <element signature="e#1165#1166#0" expanded="true" />
+                <element signature="e#1223#1224#0" expanded="true" />
+                <element signature="e#1273#1274#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="springmvc.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../MixShop/common-manager-web/src/main/resources/spring/springmvc.xml">
+      <file leaf-file-name="header.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../MixShop/common-search-web/src/main/webapp/WEB-INF/jsp/commons/header.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="46" column="91" selection-start-line="46" selection-start-column="70" selection-end-line="46" selection-end-column="91" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../MixShop/common-manager-web/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
-            </state>
+            <state relative-caret-position="-203" />
           </provider>
         </entry>
       </file>
@@ -159,6 +205,8 @@
     <findStrings>
       <find>junit</find>
       <find>log</find>
+      <find>8086</find>
+      <find>totalPages</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -167,16 +215,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/common-content/common-content-service/pom.xml" />
-        <option value="$PROJECT_DIR$/common-content/common-content-service/src/main/resources/spring/applicationContext-service.xml" />
-        <option value="$PROJECT_DIR$/common-content/common-content-service/src/main/resources/spring/applicationContext-trans.xml" />
-        <option value="$PROJECT_DIR$/common-manager-web/pom.xml" />
-        <option value="$PROJECT_DIR$/common-manager-web/src/main/java/com/min/controller/ItemCatController.java" />
-        <option value="$PROJECT_DIR$/common-manager/common-manager-service/pom.xml" />
-        <option value="$PROJECT_DIR$/common-manager/common-manager-service/src/main/resources/spring/applicationContext-service.xml" />
-        <option value="$PROJECT_DIR$/common-manager/common-manager-dao/src/main/java/com/min/mapper/TbContentCategoryMapper.xml" />
-        <option value="$PROJECT_DIR$/common-content/common-content-interface/src/main/java/com/min/content/service/ContentCategoryService.java" />
-        <option value="$PROJECT_DIR$/common-content/common-content-service/src/main/java/com/min/content/service/impl/ContentCategoryServiceImpl.java" />
         <option value="$PROJECT_DIR$/common-manager-web/src/main/java/com/min/controller/ContentCategoryController.java" />
         <option value="$PROJECT_DIR$/common-content/common-content-service/src/main/resources/spring/applicationContext-service.xml" />
         <option value="$PROJECT_DIR$/common-manager-web/src/main/java/com/min/controller/ContentController.java" />
@@ -201,16 +239,13 @@
         <option value="$PROJECT_DIR$/../MixShop/common-search/common-search-interface/pom.xml" />
         <option value="$PROJECT_DIR$/../MixShop/common-utils/pom.xml" />
         <option value="$PROJECT_DIR$/../MixShop/common-content/common-content-service/pom.xml" />
-        <option value="$PROJECT_DIR$/../MixShop/common-search/common-search-service/src/main/resources/conf/resource.properties" />
         <option value="$PROJECT_DIR$/../MixShop/common-search/common-search-service/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/../MixShop/common-search/pom.xml" />
         <option value="$PROJECT_DIR$/../MixShop/common-search/common-search-service/src/test/java/com/min/search/solr/SolrTest.java" />
-        <option value="$PROJECT_DIR$/../MixShop/common-utils/src/main/java/com/min/common/pojo/SearchItem.java" />
         <option value="$PROJECT_DIR$/../MixShop/common-search/common-search-service/src/main/java/com/min/search/mapper/ItemMapper.java" />
         <option value="$PROJECT_DIR$/../MixShop/common-search/common-search-service/pom.xml" />
         <option value="$PROJECT_DIR$/../MixShop/common-search/common-search-interface/src/main/java/com/min/search/SearchItemService.java" />
         <option value="$PROJECT_DIR$/../MixShop/common-search/common-search-service/src/main/resources/spring/applicationContext-solr.xml" />
-        <option value="$PROJECT_DIR$/../MixShop/common-search/common-search-service/src/main/resources/spring/applicationContext-service.xml" />
         <option value="$PROJECT_DIR$/../MixShop/common-search/common-search-service/src/main/resources/spring/applicationContext-dao.xml" />
         <option value="$PROJECT_DIR$/../MixShop/common-manager-web/pom.xml" />
         <option value="$PROJECT_DIR$/../MixShop/common-manager-web/src/main/resources/spring/springmvc.xml" />
@@ -218,6 +253,19 @@
         <option value="$PROJECT_DIR$/../MixShop/common-manager-web/src/main/java/com/min/controller/SearchItemController.java" />
         <option value="$PROJECT_DIR$/../MixShop/common-manager-web/src/test/java/com.min.fast/FastFDSTest.java" />
         <option value="$PROJECT_DIR$/../MixShop/common-search/common-search-service/src/main/java/com/min/search/service/SearchItemServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../MixShop/common-search-web/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/../MixShop/common-search/common-search-interface/src/main/java/com/min/search/SearchService.java" />
+        <option value="$PROJECT_DIR$/../MixShop/common-search/common-search-service/src/main/resources/conf/resource.properties" />
+        <option value="$PROJECT_DIR$/../MixShop/common-utils/src/main/java/com/min/common/pojo/SearchResult.java" />
+        <option value="$PROJECT_DIR$/../MixShop/common-search/common-search-service/src/main/java/com/min/search/service/SearchServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../MixShop/common-search-web/src/main/resources/spring/springmvc.xml" />
+        <option value="$PROJECT_DIR$/../MixShop/common-search-web/src/main/resources/conf/resource.properties" />
+        <option value="$PROJECT_DIR$/../MixShop/common-search-web/src/main/java/com/min/search/controller/SearchController.java" />
+        <option value="$PROJECT_DIR$/../MixShop/common-search-web/pom.xml" />
+        <option value="$PROJECT_DIR$/../MixShop/common-search/common-search-service/src/main/resources/spring/applicationContext-service.xml" />
+        <option value="$PROJECT_DIR$/../MixShop/common-search/common-search-service/src/main/java/com/min/search/dao/SearchDao.java" />
+        <option value="$PROJECT_DIR$/../MixShop/common-utils/src/main/java/com/min/common/pojo/SearchItem.java" />
+        <option value="$PROJECT_DIR$/../MixShop/common-search-web/src/main/webapp/WEB-INF/jsp/search.jsp" />
       </list>
     </option>
   </component>
@@ -242,7 +290,17 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="common-search-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="common-search-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
@@ -273,15 +331,42 @@
           <expand>
             <path>
               <item name="MixShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="common-content" type="462c0819:PsiDirectoryNode" />
+              <item name="common-utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MixShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="common-manager-web" type="462c0819:PsiDirectoryNode" />
+              <item name="common-utils" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MixShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="common-search" type="462c0819:PsiDirectoryNode" />
+              <item name="common-utils" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MixShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="common-utils" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MixShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="common-utils" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MixShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="common-utils" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -293,7 +378,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MixShop/common-search" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MixShop/common-search-web" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -306,18 +391,18 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\MixShop\common-search\common-search-service\src\main\resources\spring" />
-      <recent name="E:\MixShop\common-search\common-search-service\src\main\java\com\min\search\mapper" />
-      <recent name="E:\MixShop\common-search\common-search-service\src\main" />
-      <recent name="E:\MixShop\common-content\common-content-service\src\main\resources\conf" />
-      <recent name="E:\MixShop\common-utils\src\main\java\com\min\common\jedis" />
+      <recent name="E:\MixShop\common-search-web\src\main\webapp\WEB-INF\jsp" />
+      <recent name="E:\MixShop\common-utils\src\main\java\com\min\common\pojo" />
+      <recent name="E:\MixShop\common-search-web\src\main\webapp\css" />
+      <recent name="E:\MixShop\common-search-web\src\main\webapp\WEB-INF" />
+      <recent name="E:\MixShop\common-search-web\src\main\webapp" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\MixShop\common-search-web\src\main\webapp\WEB-INF" />
       <recent name="E:\MixShop\common-content\common-content-service\src\main\resources" />
       <recent name="E:\MixShop\common-manager-web\src\main\resources" />
       <recent name="E:\MixShop\common-manager\common-manager-service\src" />
       <recent name="E:\MixShop\common-manager\common-manager-service\src\main\resources\conf" />
-      <recent name="E:\MixShop\common-manager" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -332,7 +417,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Maven.common-web">
+  <component name="RunManager" selected="Maven.common-search-web">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -542,6 +627,31 @@
         </option>
       </MavenSettings>
     </configuration>
+    <configuration name="common-search-web" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/../MixShop/common-search-web" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+    </configuration>
     <configuration name="common-search" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -617,6 +727,7 @@
     <list>
       <item itemvalue="Maven.common-manager" />
       <item itemvalue="Maven.common-web" />
+      <item itemvalue="Maven.common-search-web" />
       <item itemvalue="Maven.common-portal" />
       <item itemvalue="Maven.common-content" />
       <item itemvalue="Maven.common-search" />
@@ -658,7 +769,7 @@
       <workItem from="1542762627616" duration="10764000" />
       <workItem from="1542849781690" duration="14106000" />
       <workItem from="1542957467710" duration="8701000" />
-      <workItem from="1543124302374" duration="6418000" />
+      <workItem from="1543124302374" duration="13052000" />
     </task>
     <task id="LOCAL-00001" summary="使用dubbo将服务层和web层分开">
       <created>1542621494656</created>
@@ -723,7 +834,14 @@
       <option name="project" value="LOCAL" />
       <updated>1542972468051</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="将数据导入Solr库中">
+      <created>1543147034594</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1543147034594</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -759,7 +877,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93538000" />
+    <option name="totallyTimeSpent" value="100172000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -772,10 +890,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32922733" />
-      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.32995737" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.32995737" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -791,10 +910,10 @@
       <window_info anchor="bottom" id="Java Enterprise" order="7" weight="0.32922733" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32922733" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.45352742" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.45352742" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32922733" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24253732" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24253732" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32922733" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -824,194 +943,15 @@
     <MESSAGE value="增加修改首页的功能" />
     <MESSAGE value="增加redis集群测试" />
     <MESSAGE value="增加数据缓存,通过配置文件替换选择redis集群缓存。" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加数据缓存,通过配置文件替换选择redis集群缓存。" />
+    <MESSAGE value="将数据导入Solr库中" />
+    <option name="LAST_COMMIT_MESSAGE" value="将数据导入Solr库中" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="5" />
+      <option name="time" value="6" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../MixShop/common-portal-web/src/main/resources/conf/resource.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="19" selection-start-column="19" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MixShop/common-portal-web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MixShop/common-portal-web/src/main/webapp/WEB-INF/jsp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
-          <caret line="45" column="18" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MixShop/common-content/common-content-interface/src/main/java/com/min/content/service/ContentService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MixShop/common-portal-web/src/main/resources/spring/springmvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MixShop/common-portal-web/src/main/java/com/min/portal/controller/IndexController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="29" column="49" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MixShop/common-content/common-content-service/src/test/java/com/min/AppTest.java" />
-    <entry file="file://$PROJECT_DIR$/../MixShop/common-content/common-content-service/src/main/resources/spring/applicationContext-trans.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MixShop/common-utils/src/main/java/com/min/common/jedis/JedisClientCluster.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MixShop/common-content/common-content-service/src/main/resources/spring/applicationContext-redis.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MixShop/common-utils/src/main/java/com/min/common/jedis/JedisClientPool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="7" column="41" lean-forward="true" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MixShop/common-content/common-content-service/src/main/resources/spring/applicationContext-dao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="18" column="60" selection-start-line="18" selection-start-column="60" selection-end-line="18" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MixShop/common-utils/src/main/java/com/min/common/jedis/JedisClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MixShop/common-content/common-content-service/src/main/resources/conf/resource.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="25" lean-forward="true" selection-start-column="25" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MixShop/common-content/common-content-service/src/main/resources/spring/applicationContext-service.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.2.4.RELEASE/spring-aop-4.2.4.RELEASE.jar!/org/springframework/aop/support/AopUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="163" selection-start-line="163" selection-end-line="163" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MixShop/common-content/common-content-service/src/main/java/com/min/content/service/impl/ContentServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MixShop/common-search/src/main/java/com/min/MyPortlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-699">
-          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MixShop/common-search/common-search-interface/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MixShop/common-content/common-content-interface/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="23" column="19" selection-start-line="17" selection-start-column="3" selection-end-line="23" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MixShop/common-content/common-content-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1371">
-          <caret line="83" selection-start-line="83" selection-end-line="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MixShop/common-utils/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1392">
-          <caret line="58" column="42" selection-start-line="58" selection-start-column="42" selection-end-line="58" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MixShop/common-content/common-content-service/src/test/java/com/min/jedis/JedisTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MixShop/common-search/common-search-service/src/main/resources/conf/jdbc.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MixShop/common-search/common-search-service/src/main/resources/conf/resource.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MixShop/common-search/common-search-service/src/main/resources/mybatis/SqlMapConfig.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MixShop/common-search/common-search-service/src/main/resources/spring/applicationContext-redis.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-216" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MixShop/common-search/common-search-service/src/main/resources/spring/applicationContext-trans.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-286" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../MixShop/common-search/common-search-service/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -1037,13 +977,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
           <caret line="194" column="16" selection-start-line="194" selection-start-column="16" selection-end-line="194" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MixShop/common-search/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
@@ -1078,10 +1011,279 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../MixShop/common-search/common-search-interface/src/main/java/com/min/search/SearchItemService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MixShop/common-search/common-search-interface/src/test/java/com/min/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+          <folding>
+            <element signature="e#241#242#0" expanded="true" />
+            <element signature="e#275#276#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MixShop/common-search/common-search-service/src/main/java/com/min/search/mapper/ItemMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MixShop/common-search/common-search-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MixShop/common-search/common-search-service/src/main/java/com/min/search/mapper/ItemMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MixShop/common-manager-web/src/test/java/com.min.fast/FastFDSTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="23" column="45" selection-start-line="17" selection-start-column="9" selection-end-line="28" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MixShop/common-manager-web/src/main/java/com/min/controller/SearchItemController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MixShop/common-manager-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="651">
+          <caret line="120" column="12" selection-start-line="108" selection-start-column="4" selection-end-line="120" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MixShop/common-manager-web/src/main/resources/conf/client.conf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MixShop/common-manager-web/src/main/resources/conf/resource.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MixShop/common-manager-web/src/main/resources/spring/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="685">
+          <caret line="46" column="91" selection-start-line="46" selection-start-column="70" selection-end-line="46" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MixShop/common-search-web/src/main/resources/conf/client.conf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MixShop/common-portal-web/src/main/resources/spring/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MixShop/common-search-web/src/main/webapp/WEB-INF/jsp/error/exception.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MixShop/common-portal-web/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="22" column="19" lean-forward="true" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MixShop/common-search-web/src/main/webapp/css/base_w1200.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MixShop/common-portal-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1461">
+          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="24" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MixShop/common-utils/src/main/java/com/min/common/pojo/SearchResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+          <folding>
+            <element signature="e#327#328#0" expanded="true" />
+            <element signature="e#364#365#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MixShop/common-search-web/src/main/resources/conf/resource.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MixShop/common-search-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MixShop/common-search/common-search-service/src/main/resources/spring/applicationContext-solr.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="18" column="63" selection-start-line="18" selection-start-column="63" selection-end-line="18" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MixShop/common-search/common-search-service/src/main/resources/spring/applicationContext-dao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MixShop/common-search/common-search-service/src/main/resources/conf/resource.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MixShop/common-search/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MixShop/common-manager/common-manager-service/src/main/resources/spring/applicationContext-service.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MixShop/common-content/common-content-service/src/main/resources/spring/applicationContext-service.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MixShop/common-search/common-search-service/src/main/java/com/min/search/service/SearchServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MixShop/common-search/common-search-service/src/main/java/com/min/search/service/SearchItemServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="45" column="19" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MixShop/common-search/common-search-service/src/main/resources/spring/applicationContext-service.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="17" column="56" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MixShop/common-search/common-search-service/src/main/java/com/min/search/dao/SearchDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MixShop/common-search-web/src/main/webapp/WEB-INF/jsp/jsp/error/exception.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.2.4.RELEASE/spring-web-4.2.4.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1602">
+          <caret line="132" selection-start-line="132" selection-end-line="132" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MixShop/common-search-web/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MixShop/common-search-web/src/main/webapp/WEB-INF/jsp/commons/footer.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1116" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MixShop/common-search-web/src/main/webapp/WEB-INF/jsp/commons/mainmenu.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-564" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MixShop/common-search-web/src/main/webapp/WEB-INF/jsp/commons/shortcut.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1884" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MixShop/common-search-web/src/main/resources/spring/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="696">
+          <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MixShop/common-search/common-search-interface/src/main/java/com/min/search/SearchService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MixShop/common-search-web/src/main/webapp/css/all.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MixShop/common-search-web/src/main/webapp/WEB-INF/jsp/commons/header.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-203" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MixShop/common-search-web/src/main/webapp/WEB-INF/jsp/search.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="49" column="32" lean-forward="true" selection-start-line="49" selection-start-column="32" selection-end-line="49" selection-end-column="32" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../MixShop/common-utils/src/main/java/com/min/common/pojo/SearchItem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="18" column="32" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="32" />
+        <state relative-caret-position="1488">
+          <caret line="62" column="5" lean-forward="true" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
           <folding>
             <element signature="e#430#431#0" expanded="true" />
             <element signature="e#455#456#0" expanded="true" />
@@ -1111,104 +1313,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../MixShop/common-search/common-search-interface/src/main/java/com/min/search/SearchItemService.java">
+    <entry file="file://$PROJECT_DIR$/../MixShop/common-search-web/src/main/java/com/min/search/controller/SearchController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MixShop/common-search/common-search-service/src/main/resources/spring/applicationContext-solr.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="18" column="63" selection-start-line="18" selection-start-column="63" selection-end-line="18" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MixShop/common-search/common-search-interface/src/test/java/com/min/AppTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-          <folding>
-            <element signature="e#241#242#0" expanded="true" />
-            <element signature="e#275#276#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MixShop/common-search/common-search-service/src/main/resources/spring/applicationContext-service.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="26" column="91" selection-start-line="26" selection-start-column="91" selection-end-line="26" selection-end-column="91" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MixShop/common-search/common-search-service/src/main/resources/spring/applicationContext-dao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="34" column="1" lean-forward="true" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MixShop/common-manager-web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MixShop/common-manager-web/src/main/resources/spring/springmvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="46" column="91" selection-start-line="46" selection-start-column="70" selection-end-line="46" selection-end-column="91" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MixShop/common-search/common-search-service/src/main/java/com/min/search/mapper/ItemMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MixShop/common-search/common-search-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MixShop/common-search/common-search-service/src/main/java/com/min/search/mapper/ItemMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MixShop/common-manager-web/src/test/java/com.min.fast/FastFDSTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
-          <caret line="23" column="45" selection-start-line="17" selection-start-column="9" selection-end-line="28" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MixShop/common-manager-web/src/main/java/com/min/controller/SearchItemController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../MixShop/common-search/common-search-service/src/main/java/com/min/search/service/SearchItemServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="45" column="19" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
+        <state relative-caret-position="483">
+          <caret line="34" column="38" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1270,7 +1378,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>common-search-service</last-edited>
+          <last-edited>common-search-web</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

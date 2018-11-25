@@ -15,6 +15,7 @@
     <file type="web" url="file://$PROJECT_DIR$/../MixShop/common-manager-web" />
     <file type="web" url="file://$PROJECT_DIR$/../MixShop/common-portal-web" />
     <file type="web" url="file://$PROJECT_DIR$/../MixShop/common-search" />
+    <file type="web" url="file://$PROJECT_DIR$/../MixShop/common-search-web" />
     <file type="web" url="file://$PROJECT_DIR$/../MixShop/common-utils" />
   </component>
   <component name="MavenProjectsManager">
@@ -27,6 +28,7 @@
         <option value="$PROJECT_DIR$/common-portal-web/pom.xml" />
         <option value="$PROJECT_DIR$/common-content/pom.xml" />
         <option value="$PROJECT_DIR$/../MixShop/common-search/pom.xml" />
+        <option value="$PROJECT_DIR$/../MixShop/common-search-web/pom.xml" />
       </list>
     </option>
   </component>

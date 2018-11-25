@@ -16,6 +16,7 @@
       <module fileurl="file://$PROJECT_DIR$/../MixShop/common-search/common-search.iml" filepath="$PROJECT_DIR$/../MixShop/common-search/common-search.iml" />
       <module fileurl="file://$PROJECT_DIR$/../MixShop/common-search/common-search-interface/common-search-interface.iml" filepath="$PROJECT_DIR$/../MixShop/common-search/common-search-interface/common-search-interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/../MixShop/common-search/common-search-service/common-search-service.iml" filepath="$PROJECT_DIR$/../MixShop/common-search/common-search-service/common-search-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../MixShop/common-search-web/common-search-web.iml" filepath="$PROJECT_DIR$/../MixShop/common-search-web/common-search-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/common-utils/common-utils.iml" filepath="$PROJECT_DIR$/common-utils/common-utils.iml" />
     </modules>
   </component>
