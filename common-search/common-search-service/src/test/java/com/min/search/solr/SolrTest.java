@@ -1,6 +1,7 @@
 package com.min.search.solr;
 
 import org.apache.solr.client.solrj.SolrServer;
+import org.apache.solr.client.solrj.impl.CloudSolrServer;
 import org.apache.solr.client.solrj.impl.HttpSolrServer;
 import org.apache.solr.common.SolrInputDocument;
 import org.junit.Test;
@@ -40,5 +41,21 @@ public class SolrTest {
         //根据id删除
         solrServer.deleteById("test001");
         solrServer.commit();
+    }
+    @Test
+    public void addDocumentCloud() throws Exception{
+        //创建一个集群连接
+        CloudSolrServer solrServer=new CloudSolrServer("192.168.25.133:2181,192.168.25.133:2182,192.168.25.133:2183");
+        //需要设置DefaultCollection属性
+        solrServer.setDefaultCollection("collection2");
+        //创建SolrInputDocument对象
+        SolrInputDocument solrInputFields=new SolrInputDocument();
+        solrInputFields.addField("id","test22");
+        solrInputFields.addField("item_title", "测试商品");
+        solrInputFields.addField("item_price", "1000");
+        //添加到索引库
+        solrServer.add(solrInputFields);
+        solrServer.commit();
+
     }
 }
