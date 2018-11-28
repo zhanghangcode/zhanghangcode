@@ -12,4 +12,5 @@ import com.min.common.utils.CommonResult;
 
 public interface SearchItemService {
     CommonResult importItmes() ;
+    CommonResult addDocument(long itemId)  throws Exception;
 }

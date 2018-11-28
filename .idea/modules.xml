@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/common-content/common-content.iml" filepath="$PROJECT_DIR$/common-content/common-content.iml" />
       <module fileurl="file://$PROJECT_DIR$/common-content/common-content-interface/common-content-interface.iml" filepath="$PROJECT_DIR$/common-content/common-content-interface/common-content-interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/common-content/common-content-service/common-content-service.iml" filepath="$PROJECT_DIR$/common-content/common-content-service/common-content-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../MixShop/common-item-web/common-item-web.iml" filepath="$PROJECT_DIR$/../MixShop/common-item-web/common-item-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/common-manager/common-manager.iml" filepath="$PROJECT_DIR$/common-manager/common-manager.iml" />
       <module fileurl="file://$PROJECT_DIR$/common-manager/common-manager-dao/common-manager-dao.iml" filepath="$PROJECT_DIR$/common-manager/common-manager-dao/common-manager-dao.iml" />
       <module fileurl="file://$PROJECT_DIR$/common-manager/common-manager-interface/common-manager-interface.iml" filepath="$PROJECT_DIR$/common-manager/common-manager-interface/common-manager-interface.iml" />
@@ -13,10 +14,10 @@
       <module fileurl="file://$PROJECT_DIR$/common-manager-web/common-manager-web.iml" filepath="$PROJECT_DIR$/common-manager-web/common-manager-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/common-parent/common-parent.iml" filepath="$PROJECT_DIR$/common-parent/common-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/common-portal-web/common-portal-web.iml" filepath="$PROJECT_DIR$/common-portal-web/common-portal-web.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../MixShop/common-search/common-search.iml" filepath="$PROJECT_DIR$/../MixShop/common-search/common-search.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../MixShop/common-search/common-search-interface/common-search-interface.iml" filepath="$PROJECT_DIR$/../MixShop/common-search/common-search-interface/common-search-interface.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../MixShop/common-search/common-search-service/common-search-service.iml" filepath="$PROJECT_DIR$/../MixShop/common-search/common-search-service/common-search-service.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../MixShop/common-search-web/common-search-web.iml" filepath="$PROJECT_DIR$/../MixShop/common-search-web/common-search-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-search/common-search.iml" filepath="$PROJECT_DIR$/common-search/common-search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-search/common-search-interface/common-search-interface.iml" filepath="$PROJECT_DIR$/common-search/common-search-interface/common-search-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-search/common-search-service/common-search-service.iml" filepath="$PROJECT_DIR$/common-search/common-search-service/common-search-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-search-web/common-search-web.iml" filepath="$PROJECT_DIR$/common-search-web/common-search-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/common-utils/common-utils.iml" filepath="$PROJECT_DIR$/common-utils/common-utils.iml" />
     </modules>
   </component>

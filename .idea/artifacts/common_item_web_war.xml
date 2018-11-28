@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="common-item-web:war">
+    <output-path>$PROJECT_DIR$/../MixShop/common-item-web/target</output-path>
+    <root id="archive" name="common-item-web-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="common-item-web:war exploded" />
+    </root>
+  </artifact>
+</component>

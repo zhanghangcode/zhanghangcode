@@ -13,8 +13,16 @@ import com.min.pojo.TbItemDesc;
 import com.min.pojo.TbItemExample;
 import com.min.service.ItemService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.jms.core.JmsTemplate;
+import org.springframework.jms.core.MessageCreator;
 import org.springframework.stereotype.Service;
 
+import javax.annotation.Resource;
+import javax.jms.Destination;
+import javax.jms.JMSException;
+import javax.jms.Message;
+import javax.jms.Session;
+import javax.jms.TextMessage;
 import java.util.Date;
 import java.util.List;
 
@@ -25,6 +33,12 @@ public class ItemServiceimpl implements ItemService {
     private TbItemMapper tbItemMapper;
     @Autowired
     private TbItemDescMapper tbItemDescMapper;
+    //同步索引库
+    @Autowired
+    private JmsTemplate jmsTemplate;
+    //命名规则必须使用 topicDestination
+    @Resource
+    private Destination topicDestination;
 
     @Override
     public TbItem getItemById(long itemId) {
@@ -54,7 +68,7 @@ public class ItemServiceimpl implements ItemService {
     @Override
     public CommonResult addItem(TbItem tbItem, String desc) {
         //1 生成商品Id
-        long id = IDUtils.genItemId();
+       final long id = IDUtils.genItemId();
         tbItem.setId(id);
         //设置商品状态
         //商品状态，1-正常，2-下架，3-删除
@@ -73,6 +87,14 @@ public class ItemServiceimpl implements ItemService {
         tbItemDesc.setUpdated(date);
         //插入数据
         tbItemDescMapper.insert(tbItemDesc);
+        //发送一个商品添加的消息
+        jmsTemplate.send( topicDestination, new MessageCreator() {
+            @Override
+            public Message createMessage(Session session) throws JMSException {
+                TextMessage textMessage = session.createTextMessage(id + "");
+                return textMessage;
+            }
+        });
         return CommonResult.ok();
     }
 }

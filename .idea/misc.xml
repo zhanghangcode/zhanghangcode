@@ -11,6 +11,7 @@
   </component>
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/../MixShop/common-content" />
+    <file type="web" url="file://$PROJECT_DIR$/../MixShop/common-item-web" />
     <file type="web" url="file://$PROJECT_DIR$/../MixShop/common-manager" />
     <file type="web" url="file://$PROJECT_DIR$/../MixShop/common-manager-web" />
     <file type="web" url="file://$PROJECT_DIR$/../MixShop/common-portal-web" />
@@ -27,8 +28,9 @@
         <option value="$PROJECT_DIR$/common-manager-web/pom.xml" />
         <option value="$PROJECT_DIR$/common-portal-web/pom.xml" />
         <option value="$PROJECT_DIR$/common-content/pom.xml" />
-        <option value="$PROJECT_DIR$/../MixShop/common-search/pom.xml" />
-        <option value="$PROJECT_DIR$/../MixShop/common-search-web/pom.xml" />
+        <option value="$PROJECT_DIR$/common-search/pom.xml" />
+        <option value="$PROJECT_DIR$/common-search-web/pom.xml" />
+        <option value="$PROJECT_DIR$/../MixShop/common-item-web/pom.xml" />
       </list>
     </option>
   </component>

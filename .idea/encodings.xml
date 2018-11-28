@@ -4,6 +4,7 @@
     <file url="file://$PROJECT_DIR$/../MixShop/common-content" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../MixShop/common-content/common-content-interface" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../MixShop/common-content/common-content-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../MixShop/common-item-web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../MixShop/common-manager" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../MixShop/common-manager-web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../MixShop/common-manager/common-manager-dao" charset="UTF-8" />
