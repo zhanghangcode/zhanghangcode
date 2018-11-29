@@ -18,11 +18,7 @@ import org.springframework.jms.core.MessageCreator;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
-import javax.jms.Destination;
-import javax.jms.JMSException;
-import javax.jms.Message;
-import javax.jms.Session;
-import javax.jms.TextMessage;
+import javax.jms.*;
 import java.util.Date;
 import java.util.List;
 
@@ -42,8 +38,16 @@ public class ItemServiceimpl implements ItemService {
 
     @Override
     public TbItem getItemById(long itemId) {
-        TbItem tbItem = tbItemMapper.selectByPrimaryKey(itemId);
-        return tbItem;
+        //根据商品ID查询商品信息
+
+//        TbItem tbItem = tbItemMapper.selectByPrimaryKey(itemId);
+        TbItemExample example = new TbItemExample();
+        TbItemExample.Criteria criteria = example.createCriteria();
+        //设置查询条件
+        criteria.andIdEqualTo(itemId);
+        //执行查询
+        List<TbItem> list = tbItemMapper.selectByExample(example);
+        return list.get(0);
     }
 
     @Override
@@ -96,5 +100,10 @@ public class ItemServiceimpl implements ItemService {
             }
         });
         return CommonResult.ok();
+    }
+
+    @Override
+    public TbItemDesc getItemDescById(long itemId) {
+        return tbItemDescMapper.selectByPrimaryKey(itemId);
     }
 }

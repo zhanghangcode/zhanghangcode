@@ -20,8 +20,8 @@
     </facet>
   </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
-    <output url="file://$MODULE_DIR$/../../MixShop/common-search-web/target/classes" />
-    <output-test url="file://$MODULE_DIR$/../../MixShop/common-search-web/target/test-classes" />
+    <output url="file://$MODULE_DIR$/target/classes" />
+    <output-test url="file://$MODULE_DIR$/target/test-classes" />
     <content url="file://$MODULE_DIR$/../../MixShop/common-search-web">
       <sourceFolder url="file://$MODULE_DIR$/../../MixShop/common-search-web/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../MixShop/common-search-web/src/test/java" isTestSource="true" />
