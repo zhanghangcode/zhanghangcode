@@ -18,6 +18,9 @@
         <module name="common-search-interface" />
         <module name="common-search-service" />
         <module name="common-search-web" />
+        <module name="common-sso-interface" />
+        <module name="common-sso-service" />
+        <module name="common-sso-web" />
         <module name="common-utils" />
       </profile>
     </annotationProcessing>
@@ -38,6 +41,10 @@
       <module name="common-search-interface" target="1.8" />
       <module name="common-search-service" target="1.8" />
       <module name="common-search-web" target="1.8" />
+      <module name="common-sso" target="1.8" />
+      <module name="common-sso-interface" target="1.8" />
+      <module name="common-sso-service" target="1.8" />
+      <module name="common-sso-web" target="1.8" />
       <module name="common-utils" target="1.8" />
     </bytecodeTargetLevel>
   </component>

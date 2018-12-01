@@ -7,7 +7,10 @@
   <groupId>com.min</groupId>
   <artifactId>common-parent</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <packaging>pom</packaging>
+    <modules>
+        <module>../common-sso</module>
+    </modules>
+    <packaging>pom</packaging>
   <!-- 集中定义依赖版本号 -->
   <properties>
     <junit.version>4.12</junit.version>

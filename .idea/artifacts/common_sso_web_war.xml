@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="common-sso-web:war">
+    <output-path>$PROJECT_DIR$/../MixShop/common-sso-web/target</output-path>
+    <root id="archive" name="common-sso-web-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="common-sso-web:war exploded" />
+    </root>
+  </artifact>
+</component>

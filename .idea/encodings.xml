@@ -17,6 +17,10 @@
     <file url="file://$PROJECT_DIR$/../MixShop/common-search-web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../MixShop/common-search/common-search-interface" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../MixShop/common-search/common-search-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../MixShop/common-sso" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../MixShop/common-sso-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../MixShop/common-sso/common-sso-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../MixShop/common-sso/common-sso-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../MixShop/common-utils" charset="UTF-8" />
   </component>
 </project>

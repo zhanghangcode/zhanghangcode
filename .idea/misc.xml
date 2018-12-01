@@ -17,6 +17,8 @@
     <file type="web" url="file://$PROJECT_DIR$/../MixShop/common-portal-web" />
     <file type="web" url="file://$PROJECT_DIR$/../MixShop/common-search" />
     <file type="web" url="file://$PROJECT_DIR$/../MixShop/common-search-web" />
+    <file type="web" url="file://$PROJECT_DIR$/../MixShop/common-sso" />
+    <file type="web" url="file://$PROJECT_DIR$/../MixShop/common-sso-web" />
     <file type="web" url="file://$PROJECT_DIR$/../MixShop/common-utils" />
   </component>
   <component name="MavenProjectsManager">
@@ -30,8 +32,17 @@
         <option value="$PROJECT_DIR$/common-content/pom.xml" />
         <option value="$PROJECT_DIR$/common-search/pom.xml" />
         <option value="$PROJECT_DIR$/common-search-web/pom.xml" />
-        <option value="$PROJECT_DIR$/../MixShop/common-item-web/pom.xml" />
+        <option value="$PROJECT_DIR$/common-item-web/pom.xml" />
+        <option value="$PROJECT_DIR$/common-sso-web/pom.xml" />
+        <option value="$PROJECT_DIR$/../MixShop/common-sso/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/common-sso/common-sso-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/common-sso/common-sso-service/pom.xml" />
+        <option value="$PROJECT_DIR$/common-sso/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_9" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
